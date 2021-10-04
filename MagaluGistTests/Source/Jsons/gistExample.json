@@ -1,0 +1,47 @@
+{
+"url": "https://api.github.com/gists/07f93781c78d5b6da6a3dd8cd0519a9d",
+"forks_url": "https://api.github.com/gists/07f93781c78d5b6da6a3dd8cd0519a9d/forks",
+"commits_url": "https://api.github.com/gists/07f93781c78d5b6da6a3dd8cd0519a9d/commits",
+"id": "07f93781c78d5b6da6a3dd8cd0519a9d",
+"node_id": "G_kwDOATkGD9oAIDA3ZjkzNzgxYzc4ZDViNmRhNmEzZGQ4Y2QwNTE5YTlk",
+"git_pull_url": "https://gist.github.com/07f93781c78d5b6da6a3dd8cd0519a9d.git",
+"git_push_url": "https://gist.github.com/07f93781c78d5b6da6a3dd8cd0519a9d.git",
+"html_url": "https://gist.github.com/07f93781c78d5b6da6a3dd8cd0519a9d",
+"files": {
+  "taskviewmodel-rtdb.swift": {
+    "filename": "taskviewmodel-rtdb.swift",
+    "type": "text/plain",
+    "language": "Swift",
+    "raw_url": "https://gist.githubusercontent.com/xmhafiz/07f93781c78d5b6da6a3dd8cd0519a9d/raw/da5d4e2f5911a132c3aebd62d832a386fb3b713e/taskviewmodel-rtdb.swift",
+    "size": 1374
+  }
+},
+"public": true,
+"created_at": "2021-10-04T07:56:11Z",
+"updated_at": "2021-10-04T07:56:11Z",
+"description": "",
+"comments": 0,
+"user": null,
+"comments_url": "https://api.github.com/gists/07f93781c78d5b6da6a3dd8cd0519a9d/comments",
+"owner": {
+  "login": "xmhafiz",
+  "id": 20514319,
+  "node_id": "MDQ6VXNlcjIwNTE0MzE5",
+  "avatar_url": "https://avatars.githubusercontent.com/u/20514319?v=4",
+  "gravatar_id": "",
+  "url": "https://api.github.com/users/xmhafiz",
+  "html_url": "https://github.com/xmhafiz",
+  "followers_url": "https://api.github.com/users/xmhafiz/followers",
+  "following_url": "https://api.github.com/users/xmhafiz/following{/other_user}",
+  "gists_url": "https://api.github.com/users/xmhafiz/gists{/gist_id}",
+  "starred_url": "https://api.github.com/users/xmhafiz/starred{/owner}{/repo}",
+  "subscriptions_url": "https://api.github.com/users/xmhafiz/subscriptions",
+  "organizations_url": "https://api.github.com/users/xmhafiz/orgs",
+  "repos_url": "https://api.github.com/users/xmhafiz/repos",
+  "events_url": "https://api.github.com/users/xmhafiz/events{/privacy}",
+  "received_events_url": "https://api.github.com/users/xmhafiz/received_events",
+  "type": "User",
+  "site_admin": false
+},
+"truncated": false
+}
