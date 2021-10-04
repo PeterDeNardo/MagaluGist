@@ -17,11 +17,11 @@ class DashGistCell: UITableViewCell {
         static let primaryFontSize: CGFloat = 18
         static let secondaryFontSize: CGFloat = 16
         
-        static let primaryDarkModeFontColor: UIColor = .black
-        static let secondaryDarkModeFontColor: UIColor = .darkGray
+        static let primaryDarkModeFontColor: UIColor = .white
+        static let secondaryDarkModeFontColor: UIColor = .lightGray
         
-        static let primaryLightModeFontColor: UIColor = .white
-        static let secondaryLightModeFontColor: UIColor = .lightGray
+        static let primaryLightModeFontColor: UIColor = .black
+        static let secondaryLightModeFontColor: UIColor = .darkGray
     }
     
     private let userNameLabel: UILabel = {

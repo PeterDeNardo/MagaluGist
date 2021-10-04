@@ -19,11 +19,11 @@ class DetailView: UIView {
         static let primaryFontSize: CGFloat = 28
         static let secondaryFontSize: CGFloat = 24
         
-        static let primaryDarkModeFontColor: UIColor = .black
-        static let secondaryDarkModeFontColor: UIColor = .darkGray
+        static let primaryDarkModeFontColor: UIColor = .white
+        static let secondaryDarkModeFontColor: UIColor = .lightGray
         
-        static let primaryLightModeFontColor: UIColor = .white
-        static let secondaryLightModeFontColor: UIColor = .lightGray
+        static let primaryLightModeFontColor: UIColor = .black
+        static let secondaryLightModeFontColor: UIColor = .darkGray
     }
     
     private var imageView: UIImageView = {
@@ -65,6 +65,7 @@ class DetailView: UIView {
     }
     
     private func setupLayout() {
+        self.backgroundColor = MagaluGist.darkMode ? Values.primaryLightModeFontColor : Values.primaryDarkModeFontColor
         let margins = self.layoutMarginsGuide
         self.addSubview(imageView)
         imageView.anchor(left: self.leftAnchor, right: self.rightAnchor)
