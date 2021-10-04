@@ -6,16 +6,16 @@
 //
 
 import Foundation
+import PersonalApiProvider
 
 class DashOperation: AsyncOperation {
-    
     private let provider: ApiProvider
     
     private enum Values {
         static let accept = "application/vnd.github.v3+json"
-        static let url = UrlBody(scheme: Scheme.https,
-                                 host: Host.api_guthub,
-                                 path: Path.gist_public)
+        static let url = UrlBody(scheme: Scheme.https.rawValue,
+                                 host: Host.api_guthub.rawValue,
+                                 path: Path.gist_public.rawValue)
     }
     
     private let bussiness: DashBusinessProtocol

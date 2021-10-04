@@ -17,28 +17,32 @@ class DashGistCell: UITableViewCell {
         static let primaryFontSize: CGFloat = 18
         static let secondaryFontSize: CGFloat = 16
         
-        static let primaryFontColor: UIColor = .black
-        static let secondaryFontColor: UIColor = .darkGray
+        static let primaryDarkModeFontColor: UIColor = .black
+        static let secondaryDarkModeFontColor: UIColor = .darkGray
+        
+        static let primaryLightModeFontColor: UIColor = .white
+        static let secondaryLightModeFontColor: UIColor = .lightGray
     }
     
     private let userNameLabel: UILabel = {
         var lbl = UILabel()
         lbl.font = UIFont.systemFont(ofSize: Values.primaryFontSize, weight: .regular)
-        lbl.textColor = Values.primaryFontColor
+        lbl.textColor = MagaluGist.darkMode ? Values.primaryDarkModeFontColor : Values.primaryLightModeFontColor
         return lbl
     }()
     
     private let userProjectNameLabel: UILabel = {
         var lbl = UILabel()
         lbl.font = UIFont.systemFont(ofSize: Values.primaryFontSize, weight: .regular)
-        lbl.textColor = Values.primaryFontColor
+        lbl.textColor = MagaluGist.darkMode ? Values.primaryDarkModeFontColor : Values.primaryLightModeFontColor
         return lbl
     }()
     
     private let userProjectTypeLabel: UILabel = {
         var lbl = UILabel()
         lbl.font = UIFont.systemFont(ofSize: Values.secondaryFontSize, weight: .regular)
-        lbl.textColor = Values.secondaryFontColor
+        lbl.textColor = MagaluGist.darkMode ? Values.secondaryDarkModeFontColor : Values.secondaryLightModeFontColor
+        lbl.numberOfLines = 2
         return lbl
     }()
     
@@ -111,7 +115,7 @@ class DashGistCell: UITableViewCell {
         userNameLabel.anchor(height: 24)
         
         self.contentView.addSubview(userProjectNameLabel)
-        userProjectNameLabel.anchor(left: userImageView.rightAnchor, paddingLeft: 10)
+        userProjectNameLabel.anchor(left: userImageView.rightAnchor, right: self.contentView.rightAnchor, paddingLeft: 10, paddingRight: 50)
         userProjectNameLabel.anchor(top: userNameLabel.bottomAnchor, paddingTop: 5)
         userProjectNameLabel.anchor(height: 24)
         

@@ -1,0 +1,6 @@
+framework module Pods_MagaluGist {
+  umbrella header "Pods-MagaluGist-umbrella.h"
+
+  export *
+  module * { export * }
+}

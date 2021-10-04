@@ -6,12 +6,7 @@
 //
 
 import Foundation
-
-public struct UrlBody {
-    let scheme: Scheme
-    let host: Host
-    let path: Path
-}
+import UIKit
 
 public enum Scheme: String {
     case https = "https"

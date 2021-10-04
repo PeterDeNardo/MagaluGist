@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		53C03AEE2B0B624773A88EEB /* Pods_MagaluGist.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AF14D9186FDA223115FCE9B /* Pods_MagaluGist.framework */; };
+		776C1975584A55B3DDD2D606 /* Pods_MagaluGistTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F23698E869CAAE48C14BBBC7 /* Pods_MagaluGistTests.framework */; };
 		96DE1FF22705432A0071371B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DE1FF12705432A0071371B /* AppDelegate.swift */; };
 		96DE1FF42705432A0071371B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DE1FF32705432A0071371B /* SceneDelegate.swift */; };
 		96DE1FF62705432A0071371B /* DashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DE1FF52705432A0071371B /* DashViewController.swift */; };
@@ -18,43 +20,44 @@
 		96DE20152705432D0071371B /* MagaluGistUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DE20142705432D0071371B /* MagaluGistUITestsLaunchTests.swift */; };
 		96DE202C270544FB0071371B /* DashGistCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DE202B270544FB0071371B /* DashGistCell.swift */; };
 		96DE202E270546A90071371B /* DashViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DE202D270546A90071371B /* DashViewModel.swift */; };
-		96DE2033270547890071371B /* Bindable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DE2032270547890071371B /* Bindable.swift */; };
 		96DE2035270548AB0071371B /* DashGistModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DE2034270548AB0071371B /* DashGistModel.swift */; };
 		96DE203727054A720071371B /* DashManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DE203627054A720071371B /* DashManager.swift */; };
 		96DE203927054B970071371B /* DashOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DE203827054B970071371B /* DashOperation.swift */; };
-		96DE203B27054BF40071371B /* AsyncOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DE203A27054BF40071371B /* AsyncOperation.swift */; };
-		96DE203D27054EAF0071371B /* OperationsEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DE203C27054EAF0071371B /* OperationsEnum.swift */; };
-		96DE2040270553050071371B /* ApiProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DE203F270553040071371B /* ApiProvider.swift */; };
 		96DE204227056C130071371B /* DashBusiness.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DE204127056C130071371B /* DashBusiness.swift */; };
 		96DE20442706A3E80071371B /* Int+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DE20432706A3E80071371B /* Int+Extensions.swift */; };
 		96DE20472706A43B0071371B /* UIBezierPath+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DE20462706A43B0071371B /* UIBezierPath+Extensions.swift */; };
 		96DE20492706A7F00071371B /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DE20482706A7F00071371B /* UIView+Extensions.swift */; };
-		96DE204D2707E96C0071371B /* ApiError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DE204C2707E96C0071371B /* ApiError.swift */; };
-		96DE204F2707E9880071371B /* UrlBodyConstruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DE204E2707E9880071371B /* UrlBodyConstruct.swift */; };
 		96DE20512707F56B0071371B /* LoadImageOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DE20502707F56B0071371B /* LoadImageOperation.swift */; };
 		96DE20592707F7AA0071371B /* LoadImageBusiness.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DE20582707F7AA0071371B /* LoadImageBusiness.swift */; };
 		96DE205B270A510A0071371B /* FavButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DE205A270A510A0071371B /* FavButton.swift */; };
 		96DE2063270A69B40071371B /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DE2062270A69B40071371B /* MainTabBarController.swift */; };
 		96DE2066270A6C0F0071371B /* FavoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DE2065270A6C0F0071371B /* FavoritesViewController.swift */; };
 		96DE206A270A6CCB0071371B /* FavoritesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DE2069270A6CCB0071371B /* FavoritesViewModel.swift */; };
-		96DE206C270A6F8B0071371B /* AccessUserDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DE206B270A6F8B0071371B /* AccessUserDefault.swift */; };
 		96DE2070270A97F30071371B /* FavoritesManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DE206F270A97F30071371B /* FavoritesManager.swift */; };
-		96DE2073270AA8540071371B /* SystemImages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DE2072270AA8540071371B /* SystemImages.swift */; };
 		96DE2075270AA9690071371B /* GenericErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DE2074270AA9690071371B /* GenericErrorView.swift */; };
 		96DE207A270AB3AB0071371B /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DE2079270AB3AB0071371B /* DetailViewController.swift */; };
 		96DE207C270AB9650071371B /* DetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DE207B270AB9650071371B /* DetailViewModel.swift */; };
 		96DE207E270ABA0F0071371B /* DetailManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DE207D270ABA0F0071371B /* DetailManager.swift */; };
-		96DE2081270ABAC30071371B /* ManagerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DE2080270ABAC30071371B /* ManagerProtocol.swift */; };
 		96DE2083270AC2D90071371B /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DE2082270AC2D90071371B /* DetailView.swift */; };
 		96DE2094270AE6500071371B /* DashBusiness.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DE2093270AE6500071371B /* DashBusiness.swift */; };
 		96DE2096270AE6C00071371B /* FileRepresentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DE2095270AE6C00071371B /* FileRepresentation.swift */; };
-		96DE2098270AE9770071371B /* MagaluGist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DE2097270AE9770071371B /* MagaluGist.swift */; };
 		96DE209C270AEB380071371B /* gistListExample.json in Resources */ = {isa = PBXBuildFile; fileRef = 96DE209B270AEB380071371B /* gistListExample.json */; };
 		96DE20A6270AF54B0071371B /* DashViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DE20A5270AF54B0071371B /* DashViewControllerTests.swift */; };
 		96DE20A8270AF5660071371B /* gistExample.json in Resources */ = {isa = PBXBuildFile; fileRef = 96DE20A7270AF5660071371B /* gistExample.json */; };
 		96DE20AA270AF6400071371B /* EasyMockAccess.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DE20A9270AF6400071371B /* EasyMockAccess.swift */; };
 		96DE20AC270B69720071371B /* AlertManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DE20AB270B69720071371B /* AlertManager.swift */; };
 		96DE20AF270B7C660071371B /* ApiProviderMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DE20AE270B7C660071371B /* ApiProviderMock.swift */; };
+		96DE2131270B9A1E0071371B /* AnyEncodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DE212E270B9A1E0071371B /* AnyEncodable.swift */; };
+		96DE2132270B9A1E0071371B /* AccessUserDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DE212F270B9A1E0071371B /* AccessUserDefault.swift */; };
+		96DE2133270B9A1E0071371B /* Bindable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DE2130270B9A1E0071371B /* Bindable.swift */; };
+		96DE2138270B9A3D0071371B /* ManagerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DE2134270B9A3D0071371B /* ManagerProtocol.swift */; };
+		96DE2139270B9A3D0071371B /* ViewModelsProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DE2135270B9A3D0071371B /* ViewModelsProtocol.swift */; };
+		96DE213A270B9A3D0071371B /* SystemImages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DE2136270B9A3D0071371B /* SystemImages.swift */; };
+		96DE213B270B9A3D0071371B /* MagaluGist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DE2137270B9A3D0071371B /* MagaluGist.swift */; };
+		96DE2184270BBA230071371B /* OperationsEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DE2183270BBA230071371B /* OperationsEnum.swift */; };
+		96DE2188270BBAAA0071371B /* UrlBodyConstruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DE2187270BBAAA0071371B /* UrlBodyConstruct.swift */; };
+		96DE218B270BBDD20071371B /* PersonalApiProvider.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96DE2180270BB6210071371B /* PersonalApiProvider.xcframework */; };
+		E6FEBEE3F347E278E654A3AD /* Pods_MagaluGist_MagaluGistUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6E42AB64B7136CB06223616 /* Pods_MagaluGist_MagaluGistUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,6 +78,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1FEC8FBFE5D4EF22FF1DB480 /* Pods-MagaluGist-MagaluGistUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MagaluGist-MagaluGistUITests.debug.xcconfig"; path = "Target Support Files/Pods-MagaluGist-MagaluGistUITests/Pods-MagaluGist-MagaluGistUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		434A14F31BB28DDDAF0746D5 /* Pods-MagaluGist-MagaluGistUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MagaluGist-MagaluGistUITests.release.xcconfig"; path = "Target Support Files/Pods-MagaluGist-MagaluGistUITests/Pods-MagaluGist-MagaluGistUITests.release.xcconfig"; sourceTree = "<group>"; };
+		559A3B61E54C9F4154251AB7 /* Pods-MagaluGist.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MagaluGist.debug.xcconfig"; path = "Target Support Files/Pods-MagaluGist/Pods-MagaluGist.debug.xcconfig"; sourceTree = "<group>"; };
+		7914275569422EE60AA28926 /* Pods-MagaluGistTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MagaluGistTests.debug.xcconfig"; path = "Target Support Files/Pods-MagaluGistTests/Pods-MagaluGistTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8AF14D9186FDA223115FCE9B /* Pods_MagaluGist.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MagaluGist.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		96DE1FEE2705432A0071371B /* MagaluGist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MagaluGist.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		96DE1FF12705432A0071371B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		96DE1FF32705432A0071371B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -90,43 +98,47 @@
 		96DE20142705432D0071371B /* MagaluGistUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagaluGistUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		96DE202B270544FB0071371B /* DashGistCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashGistCell.swift; sourceTree = "<group>"; };
 		96DE202D270546A90071371B /* DashViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashViewModel.swift; sourceTree = "<group>"; };
-		96DE2032270547890071371B /* Bindable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bindable.swift; sourceTree = "<group>"; };
 		96DE2034270548AB0071371B /* DashGistModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashGistModel.swift; sourceTree = "<group>"; };
 		96DE203627054A720071371B /* DashManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashManager.swift; sourceTree = "<group>"; };
 		96DE203827054B970071371B /* DashOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashOperation.swift; sourceTree = "<group>"; };
-		96DE203A27054BF40071371B /* AsyncOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncOperation.swift; sourceTree = "<group>"; };
-		96DE203C27054EAF0071371B /* OperationsEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperationsEnum.swift; sourceTree = "<group>"; };
-		96DE203F270553040071371B /* ApiProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiProvider.swift; sourceTree = "<group>"; };
 		96DE204127056C130071371B /* DashBusiness.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashBusiness.swift; sourceTree = "<group>"; };
 		96DE20432706A3E80071371B /* Int+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Int+Extensions.swift"; sourceTree = "<group>"; };
 		96DE20462706A43B0071371B /* UIBezierPath+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIBezierPath+Extensions.swift"; sourceTree = "<group>"; };
 		96DE20482706A7F00071371B /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
-		96DE204C2707E96C0071371B /* ApiError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiError.swift; sourceTree = "<group>"; };
-		96DE204E2707E9880071371B /* UrlBodyConstruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UrlBodyConstruct.swift; sourceTree = "<group>"; };
 		96DE20502707F56B0071371B /* LoadImageOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadImageOperation.swift; sourceTree = "<group>"; };
 		96DE20582707F7AA0071371B /* LoadImageBusiness.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadImageBusiness.swift; sourceTree = "<group>"; };
 		96DE205A270A510A0071371B /* FavButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavButton.swift; sourceTree = "<group>"; };
 		96DE2062270A69B40071371B /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
 		96DE2065270A6C0F0071371B /* FavoritesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesViewController.swift; sourceTree = "<group>"; };
 		96DE2069270A6CCB0071371B /* FavoritesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesViewModel.swift; sourceTree = "<group>"; };
-		96DE206B270A6F8B0071371B /* AccessUserDefault.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessUserDefault.swift; sourceTree = "<group>"; };
 		96DE206F270A97F30071371B /* FavoritesManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesManager.swift; sourceTree = "<group>"; };
-		96DE2072270AA8540071371B /* SystemImages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemImages.swift; sourceTree = "<group>"; };
 		96DE2074270AA9690071371B /* GenericErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericErrorView.swift; sourceTree = "<group>"; };
 		96DE2079270AB3AB0071371B /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		96DE207B270AB9650071371B /* DetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewModel.swift; sourceTree = "<group>"; };
 		96DE207D270ABA0F0071371B /* DetailManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailManager.swift; sourceTree = "<group>"; };
-		96DE2080270ABAC30071371B /* ManagerProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManagerProtocol.swift; sourceTree = "<group>"; };
 		96DE2082270AC2D90071371B /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		96DE2093270AE6500071371B /* DashBusiness.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashBusiness.swift; sourceTree = "<group>"; };
 		96DE2095270AE6C00071371B /* FileRepresentation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileRepresentation.swift; sourceTree = "<group>"; };
-		96DE2097270AE9770071371B /* MagaluGist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagaluGist.swift; sourceTree = "<group>"; };
 		96DE209B270AEB380071371B /* gistListExample.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = gistListExample.json; sourceTree = "<group>"; };
 		96DE20A5270AF54B0071371B /* DashViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashViewControllerTests.swift; sourceTree = "<group>"; };
 		96DE20A7270AF5660071371B /* gistExample.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = gistExample.json; sourceTree = "<group>"; };
 		96DE20A9270AF6400071371B /* EasyMockAccess.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EasyMockAccess.swift; sourceTree = "<group>"; };
 		96DE20AB270B69720071371B /* AlertManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertManager.swift; sourceTree = "<group>"; };
 		96DE20AE270B7C660071371B /* ApiProviderMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiProviderMock.swift; sourceTree = "<group>"; };
+		96DE212E270B9A1E0071371B /* AnyEncodable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AnyEncodable.swift; path = MagaluGist/Commons/AnyEncodable.swift; sourceTree = SOURCE_ROOT; };
+		96DE212F270B9A1E0071371B /* AccessUserDefault.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AccessUserDefault.swift; path = MagaluGist/Commons/AccessUserDefault.swift; sourceTree = SOURCE_ROOT; };
+		96DE2130270B9A1E0071371B /* Bindable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Bindable.swift; path = MagaluGist/Commons/Bindable.swift; sourceTree = SOURCE_ROOT; };
+		96DE2134270B9A3D0071371B /* ManagerProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ManagerProtocol.swift; sourceTree = "<group>"; };
+		96DE2135270B9A3D0071371B /* ViewModelsProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewModelsProtocol.swift; sourceTree = "<group>"; };
+		96DE2136270B9A3D0071371B /* SystemImages.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SystemImages.swift; sourceTree = "<group>"; };
+		96DE2137270B9A3D0071371B /* MagaluGist.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MagaluGist.swift; sourceTree = "<group>"; };
+		96DE2180270BB6210071371B /* PersonalApiProvider.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = PersonalApiProvider.xcframework; path = ../PersonalApiProvider/build/PersonalApiProvider.xcframework; sourceTree = "<group>"; };
+		96DE2183270BBA230071371B /* OperationsEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperationsEnum.swift; sourceTree = "<group>"; };
+		96DE2187270BBAAA0071371B /* UrlBodyConstruct.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UrlBodyConstruct.swift; sourceTree = "<group>"; };
+		A09A3A8DA92D9CEA64D23553 /* Pods-MagaluGistTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MagaluGistTests.release.xcconfig"; path = "Target Support Files/Pods-MagaluGistTests/Pods-MagaluGistTests.release.xcconfig"; sourceTree = "<group>"; };
+		C6E42AB64B7136CB06223616 /* Pods_MagaluGist_MagaluGistUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MagaluGist_MagaluGistUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDB6116730FCD96E0411F541 /* Pods-MagaluGist.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MagaluGist.release.xcconfig"; path = "Target Support Files/Pods-MagaluGist/Pods-MagaluGist.release.xcconfig"; sourceTree = "<group>"; };
+		F23698E869CAAE48C14BBBC7 /* Pods_MagaluGistTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MagaluGistTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,6 +146,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				53C03AEE2B0B624773A88EEB /* Pods_MagaluGist.framework in Frameworks */,
+				96DE218B270BBDD20071371B /* PersonalApiProvider.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,6 +155,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				776C1975584A55B3DDD2D606 /* Pods_MagaluGistTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -148,12 +163,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E6FEBEE3F347E278E654A3AD /* Pods_MagaluGist_MagaluGistUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4E274A1A51E641B3AF3BAB73 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				559A3B61E54C9F4154251AB7 /* Pods-MagaluGist.debug.xcconfig */,
+				EDB6116730FCD96E0411F541 /* Pods-MagaluGist.release.xcconfig */,
+				1FEC8FBFE5D4EF22FF1DB480 /* Pods-MagaluGist-MagaluGistUITests.debug.xcconfig */,
+				434A14F31BB28DDDAF0746D5 /* Pods-MagaluGist-MagaluGistUITests.release.xcconfig */,
+				7914275569422EE60AA28926 /* Pods-MagaluGistTests.debug.xcconfig */,
+				A09A3A8DA92D9CEA64D23553 /* Pods-MagaluGistTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		96DE1FE52705432A0071371B = {
 			isa = PBXGroup;
 			children = (
@@ -161,6 +190,8 @@
 				96DE20072705432D0071371B /* MagaluGistTests */,
 				96DE20112705432D0071371B /* MagaluGistUITests */,
 				96DE1FEF2705432A0071371B /* Products */,
+				4E274A1A51E641B3AF3BAB73 /* Pods */,
+				B7453367F80B3B246F20A09A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -304,29 +335,20 @@
 		96DE202F270546D60071371B /* Commons */ = {
 			isa = PBXGroup;
 			children = (
+				96DE212F270B9A1E0071371B /* AccessUserDefault.swift */,
+				96DE212E270B9A1E0071371B /* AnyEncodable.swift */,
+				96DE2130270B9A1E0071371B /* Bindable.swift */,
+				96DE2137270B9A3D0071371B /* MagaluGist.swift */,
+				96DE2134270B9A3D0071371B /* ManagerProtocol.swift */,
+				96DE2136270B9A3D0071371B /* SystemImages.swift */,
+				96DE2135270B9A3D0071371B /* ViewModelsProtocol.swift */,
+				96DE2187270BBAAA0071371B /* UrlBodyConstruct.swift */,
+				96DE2183270BBA230071371B /* OperationsEnum.swift */,
 				96DE20AD270B69780071371B /* Error */,
 				96DE20522707F7290071371B /* LoadImage */,
 				96DE20452706A4260071371B /* Extensions */,
-				96DE203E270552980071371B /* Network */,
-				96DE2032270547890071371B /* Bindable.swift */,
-				96DE206B270A6F8B0071371B /* AccessUserDefault.swift */,
-				96DE2072270AA8540071371B /* SystemImages.swift */,
-				96DE2080270ABAC30071371B /* ManagerProtocol.swift */,
-				96DE2097270AE9770071371B /* MagaluGist.swift */,
 			);
 			path = Commons;
-			sourceTree = "<group>";
-		};
-		96DE203E270552980071371B /* Network */ = {
-			isa = PBXGroup;
-			children = (
-				96DE203A27054BF40071371B /* AsyncOperation.swift */,
-				96DE203C27054EAF0071371B /* OperationsEnum.swift */,
-				96DE203F270553040071371B /* ApiProvider.swift */,
-				96DE204C2707E96C0071371B /* ApiError.swift */,
-				96DE204E2707E9880071371B /* UrlBodyConstruct.swift */,
-			);
-			path = Network;
 			sourceTree = "<group>";
 		};
 		96DE20452706A4260071371B /* Extensions */ = {
@@ -532,6 +554,17 @@
 			path = Error;
 			sourceTree = "<group>";
 		};
+		B7453367F80B3B246F20A09A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				96DE2180270BB6210071371B /* PersonalApiProvider.xcframework */,
+				8AF14D9186FDA223115FCE9B /* Pods_MagaluGist.framework */,
+				C6E42AB64B7136CB06223616 /* Pods_MagaluGist_MagaluGistUITests.framework */,
+				F23698E869CAAE48C14BBBC7 /* Pods_MagaluGistTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -539,6 +572,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 96DE20182705432D0071371B /* Build configuration list for PBXNativeTarget "MagaluGist" */;
 			buildPhases = (
+				6A826C3B5E9DE44AB1D0AFAD /* [CP] Check Pods Manifest.lock */,
 				96DE1FEA2705432A0071371B /* Sources */,
 				96DE1FEB2705432A0071371B /* Frameworks */,
 				96DE1FEC2705432A0071371B /* Resources */,
@@ -556,6 +590,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 96DE201B2705432D0071371B /* Build configuration list for PBXNativeTarget "MagaluGistTests" */;
 			buildPhases = (
+				2239306902D3173F4737B31B /* [CP] Check Pods Manifest.lock */,
 				96DE20002705432D0071371B /* Sources */,
 				96DE20012705432D0071371B /* Frameworks */,
 				96DE20022705432D0071371B /* Resources */,
@@ -574,6 +609,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 96DE201E2705432D0071371B /* Build configuration list for PBXNativeTarget "MagaluGistUITests" */;
 			buildPhases = (
+				DF55179A0FB0377A97FCAFC4 /* [CP] Check Pods Manifest.lock */,
 				96DE200A2705432D0071371B /* Sources */,
 				96DE200B2705432D0071371B /* Frameworks */,
 				96DE200C2705432D0071371B /* Resources */,
@@ -660,6 +696,75 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2239306902D3173F4737B31B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MagaluGistTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6A826C3B5E9DE44AB1D0AFAD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MagaluGist-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DF55179A0FB0377A97FCAFC4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MagaluGist-MagaluGistUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		96DE1FEA2705432A0071371B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -669,36 +774,35 @@
 				96DE1FF62705432A0071371B /* DashViewController.swift in Sources */,
 				96DE2063270A69B40071371B /* MainTabBarController.swift in Sources */,
 				96DE204227056C130071371B /* DashBusiness.swift in Sources */,
-				96DE203B27054BF40071371B /* AsyncOperation.swift in Sources */,
-				96DE2081270ABAC30071371B /* ManagerProtocol.swift in Sources */,
 				96DE20AC270B69720071371B /* AlertManager.swift in Sources */,
-				96DE2040270553050071371B /* ApiProvider.swift in Sources */,
 				96DE203927054B970071371B /* DashOperation.swift in Sources */,
-				96DE206C270A6F8B0071371B /* AccessUserDefault.swift in Sources */,
 				96DE20492706A7F00071371B /* UIView+Extensions.swift in Sources */,
 				96DE207A270AB3AB0071371B /* DetailViewController.swift in Sources */,
-				96DE2033270547890071371B /* Bindable.swift in Sources */,
+				96DE2131270B9A1E0071371B /* AnyEncodable.swift in Sources */,
 				96DE2035270548AB0071371B /* DashGistModel.swift in Sources */,
 				96DE207E270ABA0F0071371B /* DetailManager.swift in Sources */,
 				96DE2070270A97F30071371B /* FavoritesManager.swift in Sources */,
 				96DE207C270AB9650071371B /* DetailViewModel.swift in Sources */,
 				96DE2083270AC2D90071371B /* DetailView.swift in Sources */,
 				96DE20592707F7AA0071371B /* LoadImageBusiness.swift in Sources */,
+				96DE2138270B9A3D0071371B /* ManagerProtocol.swift in Sources */,
+				96DE2139270B9A3D0071371B /* ViewModelsProtocol.swift in Sources */,
 				96DE20512707F56B0071371B /* LoadImageOperation.swift in Sources */,
 				96DE205B270A510A0071371B /* FavButton.swift in Sources */,
 				96DE1FF22705432A0071371B /* AppDelegate.swift in Sources */,
 				96DE1FF42705432A0071371B /* SceneDelegate.swift in Sources */,
 				96DE202E270546A90071371B /* DashViewModel.swift in Sources */,
-				96DE203D27054EAF0071371B /* OperationsEnum.swift in Sources */,
+				96DE213A270B9A3D0071371B /* SystemImages.swift in Sources */,
 				96DE203727054A720071371B /* DashManager.swift in Sources */,
-				96DE2098270AE9770071371B /* MagaluGist.swift in Sources */,
+				96DE2132270B9A1E0071371B /* AccessUserDefault.swift in Sources */,
+				96DE2188270BBAAA0071371B /* UrlBodyConstruct.swift in Sources */,
+				96DE213B270B9A3D0071371B /* MagaluGist.swift in Sources */,
+				96DE2133270B9A1E0071371B /* Bindable.swift in Sources */,
 				96DE206A270A6CCB0071371B /* FavoritesViewModel.swift in Sources */,
-				96DE2073270AA8540071371B /* SystemImages.swift in Sources */,
 				96DE202C270544FB0071371B /* DashGistCell.swift in Sources */,
-				96DE204D2707E96C0071371B /* ApiError.swift in Sources */,
 				96DE2066270A6C0F0071371B /* FavoritesViewController.swift in Sources */,
-				96DE204F2707E9880071371B /* UrlBodyConstruct.swift in Sources */,
 				96DE20472706A43B0071371B /* UIBezierPath+Extensions.swift in Sources */,
+				96DE2184270BBA230071371B /* OperationsEnum.swift in Sources */,
 				96DE2075270AA9690071371B /* GenericErrorView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -878,6 +982,7 @@
 		};
 		96DE20192705432D0071371B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 559A3B61E54C9F4154251AB7 /* Pods-MagaluGist.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -906,6 +1011,7 @@
 		};
 		96DE201A2705432D0071371B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EDB6116730FCD96E0411F541 /* Pods-MagaluGist.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -934,6 +1040,7 @@
 		};
 		96DE201C2705432D0071371B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7914275569422EE60AA28926 /* Pods-MagaluGistTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -959,6 +1066,7 @@
 		};
 		96DE201D2705432D0071371B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A09A3A8DA92D9CEA64D23553 /* Pods-MagaluGistTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -984,6 +1092,7 @@
 		};
 		96DE201F2705432D0071371B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1FEC8FBFE5D4EF22FF1DB480 /* Pods-MagaluGist-MagaluGistUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -1007,6 +1116,7 @@
 		};
 		96DE20202705432D0071371B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 434A14F31BB28DDDAF0746D5 /* Pods-MagaluGist-MagaluGistUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

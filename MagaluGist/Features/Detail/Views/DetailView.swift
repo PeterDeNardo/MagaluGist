@@ -10,11 +10,14 @@ import UIKit
 
 class DetailView: UIView {
     enum Values {
-        static let primaryFontSize: CGFloat = 18
-        static let secondaryFontSize: CGFloat = 16
+        static let primaryFontSize: CGFloat = 28
+        static let secondaryFontSize: CGFloat = 24
         
-        static let whiteFontColor: UIColor = .white
-        static let blackFontColor: UIColor = .black
+        static let primaryDarkModeFontColor: UIColor = .black
+        static let secondaryDarkModeFontColor: UIColor = .darkGray
+        
+        static let primaryLightModeFontColor: UIColor = .white
+        static let secondaryLightModeFontColor: UIColor = .lightGray
     }
     
     private var imageView: UIImageView = {
@@ -25,14 +28,14 @@ class DetailView: UIView {
     private var userNameLabel: UILabel = {
         var lbl = UILabel()
         lbl.font = UIFont.systemFont(ofSize: Values.primaryFontSize, weight: .regular)
-        lbl.textColor = Values.whiteFontColor
+        lbl.textColor = MagaluGist.darkMode ? Values.primaryDarkModeFontColor : Values.primaryLightModeFontColor
         return lbl
     }()
     
     private var userProjectNameLabel: UILabel = {
         var lbl = UILabel()
         lbl.font = UIFont.systemFont(ofSize: Values.primaryFontSize, weight: .regular)
-        lbl.textColor = Values.blackFontColor
+        lbl.textColor = MagaluGist.darkMode ? Values.primaryDarkModeFontColor : Values.primaryLightModeFontColor
         lbl.numberOfLines = 2
         return lbl
     }()
@@ -57,7 +60,6 @@ class DetailView: UIView {
     
     private func setupLayout() {
         let margins = self.layoutMarginsGuide
-        self.backgroundColor = .white
         self.addSubview(imageView)
         imageView.anchor(left: self.leftAnchor, right: self.rightAnchor)
         imageView.anchor(top: margins.topAnchor)
@@ -75,6 +77,6 @@ class DetailView: UIView {
         self.addSubview(userProjectNameLabel)
         userProjectNameLabel.anchor(left: self.leftAnchor, right: self.rightAnchor, paddingLeft: 24, paddingRight: 24)
         userProjectNameLabel.anchor(top: imageView.bottomAnchor, paddingTop: 24)
-        userProjectNameLabel.anchor(height: 60)
+        userProjectNameLabel.sizeToFit()
     }
 }

@@ -7,6 +7,7 @@
 
 import Foundation
 import UIKit
+import PersonalApiProvider
 
 typealias LoadImageCompletion = (@escaping () throws -> UIImage) -> Void
 typealias LoadImageApiResponse = () throws -> CompletionData

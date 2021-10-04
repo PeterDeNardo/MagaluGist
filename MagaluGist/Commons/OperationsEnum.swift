@@ -1,18 +1,18 @@
 //
-//  OperationsEnum.swift
+//  File.swift
 //  MagaluGist
 //
-//  Created by Peter De Nardo on 29/09/21.
+//  Created by Peter De Nardo on 04/10/21.
 //
 
 import Foundation
 
-enum OperationsEnum: String {
-    ///More commons
+public enum OperationsEnum: String {
+///More commons
     case header = "header"
     case query = "query"
-    
-    ///less commons
+
+///less commons
     case accept = "accept"
     case since = "since"
     case per_page = "per_page"

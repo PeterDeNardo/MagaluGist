@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import PersonalApiProvider
 
 typealias dashCompletion = (@escaping () throws -> DashGistModel) -> Void
 
