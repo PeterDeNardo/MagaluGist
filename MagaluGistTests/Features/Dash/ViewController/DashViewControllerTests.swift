@@ -8,8 +8,3 @@
 import XCTest
 @testable import MagaluGist
 
-class DashViewControllerTests: XCTestCase {
-    
-    var sut: DashViewController = DashViewController()
-}
-

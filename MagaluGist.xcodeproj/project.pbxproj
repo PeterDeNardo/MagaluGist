@@ -42,7 +42,6 @@
 		96DE2094270AE6500071371B /* DashBusiness.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DE2093270AE6500071371B /* DashBusiness.swift */; };
 		96DE2096270AE6C00071371B /* FileRepresentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DE2095270AE6C00071371B /* FileRepresentation.swift */; };
 		96DE209C270AEB380071371B /* gistListExample.json in Resources */ = {isa = PBXBuildFile; fileRef = 96DE209B270AEB380071371B /* gistListExample.json */; };
-		96DE20A6270AF54B0071371B /* DashViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DE20A5270AF54B0071371B /* DashViewControllerTests.swift */; };
 		96DE20A8270AF5660071371B /* gistExample.json in Resources */ = {isa = PBXBuildFile; fileRef = 96DE20A7270AF5660071371B /* gistExample.json */; };
 		96DE20AA270AF6400071371B /* EasyMockAccess.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DE20A9270AF6400071371B /* EasyMockAccess.swift */; };
 		96DE20AC270B69720071371B /* AlertManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DE20AB270B69720071371B /* AlertManager.swift */; };
@@ -120,7 +119,6 @@
 		96DE2093270AE6500071371B /* DashBusiness.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashBusiness.swift; sourceTree = "<group>"; };
 		96DE2095270AE6C00071371B /* FileRepresentation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileRepresentation.swift; sourceTree = "<group>"; };
 		96DE209B270AEB380071371B /* gistListExample.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = gistListExample.json; sourceTree = "<group>"; };
-		96DE20A5270AF54B0071371B /* DashViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashViewControllerTests.swift; sourceTree = "<group>"; };
 		96DE20A7270AF5660071371B /* gistExample.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = gistExample.json; sourceTree = "<group>"; };
 		96DE20A9270AF6400071371B /* EasyMockAccess.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EasyMockAccess.swift; sourceTree = "<group>"; };
 		96DE20AB270B69720071371B /* AlertManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertManager.swift; sourceTree = "<group>"; };
@@ -540,7 +538,6 @@
 		96DE20A4270AF5330071371B /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
-				96DE20A5270AF54B0071371B /* DashViewControllerTests.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -811,7 +808,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				96DE20A6270AF54B0071371B /* DashViewControllerTests.swift in Sources */,
 				96DE20092705432D0071371B /* MagaluGistTests.swift in Sources */,
 				96DE2094270AE6500071371B /* DashBusiness.swift in Sources */,
 				96DE20AF270B7C660071371B /* ApiProviderMock.swift in Sources */,
