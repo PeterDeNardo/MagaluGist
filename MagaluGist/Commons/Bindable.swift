@@ -7,6 +7,12 @@
 
 import Foundation
 
+/**
+ 
+ Bindable definition for use
+ 
+*/
+
 class Bindable<T> {
     typealias BindType = ((T) -> Void)
     

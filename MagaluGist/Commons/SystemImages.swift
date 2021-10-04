@@ -7,6 +7,12 @@
 
 import Foundation
 
+/**
+ 
+ saves commonly used system images
+ 
+ */
+
 enum SystemImages: String {
 case interrogation = "questionmark"
 }

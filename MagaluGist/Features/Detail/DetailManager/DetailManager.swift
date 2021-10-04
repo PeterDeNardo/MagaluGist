@@ -16,3 +16,4 @@ class DetailManager: ManagerProtocol {
         operation.start()
     }
 }
+

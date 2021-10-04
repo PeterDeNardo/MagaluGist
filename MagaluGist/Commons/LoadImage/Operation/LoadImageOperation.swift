@@ -8,6 +8,12 @@
 import Foundation
 import PersonalApiProvider
 
+/**
+ 
+ Load Image Operation
+ 
+ */
+
 class LoadImageOperation: AsyncOperation {
     
     private let provider: ApiProvider
@@ -16,6 +22,14 @@ class LoadImageOperation: AsyncOperation {
     private let url: URL
     private let completion: LoadImageCompletion
     
+    
+    ///Get a UIAlertController for any case
+    ///
+    /// - Parameters:
+    ///   - dashBussiness: Business Layer
+    ///   - provider: ApiProvider
+    ///   - url: URL
+    ///   - completion: callback
     required init(dashBussiness: LoadImageBusinessProtocol = LoadImageBusiness(),
                   provider: ApiProvider = ApiProvider(),
                   url: URL,

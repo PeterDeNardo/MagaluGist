@@ -46,7 +46,6 @@
 		96DE20AA270AF6400071371B /* EasyMockAccess.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DE20A9270AF6400071371B /* EasyMockAccess.swift */; };
 		96DE20AC270B69720071371B /* AlertManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DE20AB270B69720071371B /* AlertManager.swift */; };
 		96DE20AF270B7C660071371B /* ApiProviderMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DE20AE270B7C660071371B /* ApiProviderMock.swift */; };
-		96DE2131270B9A1E0071371B /* AnyEncodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DE212E270B9A1E0071371B /* AnyEncodable.swift */; };
 		96DE2132270B9A1E0071371B /* AccessUserDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DE212F270B9A1E0071371B /* AccessUserDefault.swift */; };
 		96DE2133270B9A1E0071371B /* Bindable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DE2130270B9A1E0071371B /* Bindable.swift */; };
 		96DE2138270B9A3D0071371B /* ManagerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DE2134270B9A3D0071371B /* ManagerProtocol.swift */; };
@@ -123,7 +122,6 @@
 		96DE20A9270AF6400071371B /* EasyMockAccess.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EasyMockAccess.swift; sourceTree = "<group>"; };
 		96DE20AB270B69720071371B /* AlertManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertManager.swift; sourceTree = "<group>"; };
 		96DE20AE270B7C660071371B /* ApiProviderMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiProviderMock.swift; sourceTree = "<group>"; };
-		96DE212E270B9A1E0071371B /* AnyEncodable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AnyEncodable.swift; path = MagaluGist/Commons/AnyEncodable.swift; sourceTree = SOURCE_ROOT; };
 		96DE212F270B9A1E0071371B /* AccessUserDefault.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AccessUserDefault.swift; path = MagaluGist/Commons/AccessUserDefault.swift; sourceTree = SOURCE_ROOT; };
 		96DE2130270B9A1E0071371B /* Bindable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Bindable.swift; path = MagaluGist/Commons/Bindable.swift; sourceTree = SOURCE_ROOT; };
 		96DE2134270B9A3D0071371B /* ManagerProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ManagerProtocol.swift; sourceTree = "<group>"; };
@@ -334,7 +332,6 @@
 			isa = PBXGroup;
 			children = (
 				96DE212F270B9A1E0071371B /* AccessUserDefault.swift */,
-				96DE212E270B9A1E0071371B /* AnyEncodable.swift */,
 				96DE2130270B9A1E0071371B /* Bindable.swift */,
 				96DE2137270B9A3D0071371B /* MagaluGist.swift */,
 				96DE2134270B9A3D0071371B /* ManagerProtocol.swift */,
@@ -775,7 +772,6 @@
 				96DE203927054B970071371B /* DashOperation.swift in Sources */,
 				96DE20492706A7F00071371B /* UIView+Extensions.swift in Sources */,
 				96DE207A270AB3AB0071371B /* DetailViewController.swift in Sources */,
-				96DE2131270B9A1E0071371B /* AnyEncodable.swift in Sources */,
 				96DE2035270548AB0071371B /* DashGistModel.swift in Sources */,
 				96DE207E270ABA0F0071371B /* DetailManager.swift in Sources */,
 				96DE2070270A97F30071371B /* FavoritesManager.swift in Sources */,

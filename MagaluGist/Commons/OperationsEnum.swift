@@ -5,6 +5,12 @@
 //  Created by Peter De Nardo on 04/10/21.
 //
 
+/**
+ 
+ This class is response to save commons request parameters
+ 
+ */
+
 import Foundation
 
 public enum OperationsEnum: String {

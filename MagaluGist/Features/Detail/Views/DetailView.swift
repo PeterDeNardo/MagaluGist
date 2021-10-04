@@ -8,6 +8,12 @@
 import Foundation
 import UIKit
 
+/**
+ 
+ sums all layout settings to be passed to viewController
+ 
+ */
+
 class DetailView: UIView {
     enum Values {
         static let primaryFontSize: CGFloat = 28

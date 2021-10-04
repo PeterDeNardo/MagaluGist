@@ -7,6 +7,12 @@
 
 import Foundation
 
+/**
+ 
+ Padronization for ViewModel Class
+ 
+ */
+
 protocol ViewModelProtocol {
     func fetch()
 }

@@ -9,6 +9,12 @@ import Foundation
 import UIKit
 import PersonalApiProvider
 
+/**
+ 
+ Business layer for image view
+ 
+ */
+
 typealias LoadImageCompletion = (@escaping () throws -> UIImage) -> Void
 typealias LoadImageApiResponse = () throws -> CompletionData
 

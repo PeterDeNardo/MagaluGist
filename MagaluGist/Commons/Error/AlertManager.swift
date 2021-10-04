@@ -15,7 +15,13 @@ class AlertHandler {
     }()
     
     private init() {}
-    
+
+    ///Get a UIAlertController for any case
+    ///
+    /// - Parameters:
+    ///   - withTitle: alert tile
+    ///   - description: alert description
+    ///   - style: UIAlertController.Style @default value = .alert
     public func getGenericAlert(withTitle title: String, description: String, style: UIAlertController.Style = .alert) -> UIAlertController
     {
         let alert = UIAlertController(title: title, message: description, preferredStyle: style)

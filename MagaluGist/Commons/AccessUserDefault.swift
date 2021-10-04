@@ -7,6 +7,12 @@
 
 import Foundation
 
+/**
+ 
+ Easy access to User Defaults
+ 
+*/
+
 class AccessUserDefaultManager {
     
     public static var shared: AccessUserDefaultManager = {

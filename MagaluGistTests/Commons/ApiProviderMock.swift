@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import PersonalApiProvider
 @testable import MagaluGist
 
 class ApiProviderMock: ApiProviderProtocol {

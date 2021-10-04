@@ -7,6 +7,12 @@
 
 import Foundation
 
+/**
+ 
+  definition for use
+ 
+*/
+
 struct AnyEncodable: Encodable {
 
     private let _encode: (Encoder) throws -> Void

@@ -8,6 +8,12 @@
 import Foundation
 import UIKit
 
+/**
+ 
+ This class is response to save commons path parameters
+ 
+ */
+
 public enum Scheme: String {
     case https = "https"
 }

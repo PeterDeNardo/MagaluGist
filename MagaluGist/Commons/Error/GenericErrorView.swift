@@ -8,6 +8,10 @@
 import Foundation
 import UIKit
 
+/**
+    Custom Generics class for any use
+ */
+
 protocol GenericErrorViewDelegate {
     func pressButton()
 }
@@ -35,6 +39,12 @@ class GenericErrorView: UIView {
     
     private var delegate: GenericErrorViewDelegate?
     
+    ///setup view
+    ///
+    /// - Parameters:
+    ///   - errorTitle: error tile
+    ///   - errorButtonText: button text @: default value = "Something is Wrong"
+    ///   - delegate: closure for button action
     func setup(errorTitle: String = Values.title, errorButtonText: String = Values.buttonTitle, delegate: GenericErrorViewDelegate?) {
         errorLabel.text = errorTitle
         tryAgainButton.setTitle(errorButtonText, for: .normal)

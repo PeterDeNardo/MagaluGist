@@ -8,6 +8,13 @@
 import Foundation
 import UIKit
 
+/**
+ 
+ Keeps static system values ​​saved for use in the application
+ 
+*/
+
+
 public class MagaluGist {
     public static var bundle: Bundle {
         return Bundle(for: MagaluGist.self)

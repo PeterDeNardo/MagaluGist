@@ -7,6 +7,12 @@
 
 import Foundation
 
+/**
+ 
+ Padronization for Manager Protocols
+ 
+*/
+
 protocol ManagerProtocol {
     // Inicializador
     ///
