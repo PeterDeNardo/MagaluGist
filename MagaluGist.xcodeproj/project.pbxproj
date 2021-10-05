@@ -54,7 +54,7 @@
 		96DE213B270B9A3D0071371B /* MagaluGist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DE2137270B9A3D0071371B /* MagaluGist.swift */; };
 		96DE2184270BBA230071371B /* OperationsEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DE2183270BBA230071371B /* OperationsEnum.swift */; };
 		96DE2188270BBAAA0071371B /* UrlBodyConstruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DE2187270BBAAA0071371B /* UrlBodyConstruct.swift */; };
-		96DE218B270BBDD20071371B /* PersonalApiProvider.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96DE2180270BB6210071371B /* PersonalApiProvider.xcframework */; };
+		96FA2768270BDA4A0003DE9F /* PersonalApiProvider.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96DE218E270BD9BA0071371B /* PersonalApiProvider.xcframework */; };
 		E6FEBEE3F347E278E654A3AD /* Pods_MagaluGist_MagaluGistUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6E42AB64B7136CB06223616 /* Pods_MagaluGist_MagaluGistUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -131,6 +131,7 @@
 		96DE2180270BB6210071371B /* PersonalApiProvider.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = PersonalApiProvider.xcframework; path = ../PersonalApiProvider/build/PersonalApiProvider.xcframework; sourceTree = "<group>"; };
 		96DE2183270BBA230071371B /* OperationsEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperationsEnum.swift; sourceTree = "<group>"; };
 		96DE2187270BBAAA0071371B /* UrlBodyConstruct.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UrlBodyConstruct.swift; sourceTree = "<group>"; };
+		96DE218E270BD9BA0071371B /* PersonalApiProvider.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = PersonalApiProvider.xcframework; sourceTree = "<group>"; };
 		A09A3A8DA92D9CEA64D23553 /* Pods-MagaluGistTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MagaluGistTests.release.xcconfig"; path = "Target Support Files/Pods-MagaluGistTests/Pods-MagaluGistTests.release.xcconfig"; sourceTree = "<group>"; };
 		C6E42AB64B7136CB06223616 /* Pods_MagaluGist_MagaluGistUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MagaluGist_MagaluGistUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDB6116730FCD96E0411F541 /* Pods-MagaluGist.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MagaluGist.release.xcconfig"; path = "Target Support Files/Pods-MagaluGist/Pods-MagaluGist.release.xcconfig"; sourceTree = "<group>"; };
@@ -143,7 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				53C03AEE2B0B624773A88EEB /* Pods_MagaluGist.framework in Frameworks */,
-				96DE218B270BBDD20071371B /* PersonalApiProvider.xcframework in Frameworks */,
+				96FA2768270BDA4A0003DE9F /* PersonalApiProvider.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -182,6 +183,7 @@
 		96DE1FE52705432A0071371B = {
 			isa = PBXGroup;
 			children = (
+				96FA2767270BDA130003DE9F /* FrameworkDependency */,
 				96DE1FF02705432A0071371B /* MagaluGist */,
 				96DE20072705432D0071371B /* MagaluGistTests */,
 				96DE20112705432D0071371B /* MagaluGistUITests */,
@@ -546,6 +548,14 @@
 				96DE20AB270B69720071371B /* AlertManager.swift */,
 			);
 			path = Error;
+			sourceTree = "<group>";
+		};
+		96FA2767270BDA130003DE9F /* FrameworkDependency */ = {
+			isa = PBXGroup;
+			children = (
+				96DE218E270BD9BA0071371B /* PersonalApiProvider.xcframework */,
+			);
+			path = FrameworkDependency;
 			sourceTree = "<group>";
 		};
 		B7453367F80B3B246F20A09A /* Frameworks */ = {

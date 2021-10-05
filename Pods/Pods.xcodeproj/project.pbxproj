@@ -6,53 +6,25 @@
 	objectVersion = 55;
 	objects = {
 
-/* Begin PBXAggregateTarget section */
-		B0245144CE495F25578A4D5F1E437E1C /* PersonalApiProvider */ = {
-			isa = PBXAggregateTarget;
-			buildConfigurationList = 28C867D6C6D7A8DDFEC47F889BF7CCA8 /* Build configuration list for PBXAggregateTarget "PersonalApiProvider" */;
-			buildPhases = (
-			);
-			dependencies = (
-			);
-			name = PersonalApiProvider;
-			productName = PersonalApiProvider;
-		};
-/* End PBXAggregateTarget section */
-
 /* Begin PBXBuildFile section */
-		2F525807AE22DA963E13464FEC2634F0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		3A113F94EC7581DB174522285F2E34DE /* Pods-MagaluGist-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6AC4C2DA94E0E3062F7FFDBAF71B49CA /* Pods-MagaluGist-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0F2E9621D799767DB30EAF8C10C5A9CB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		27DE1BB576E60B6142208686B84164A9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		6118EF4EA7455A3CE5F8DECD4537F9B9 /* Pods-MagaluGistTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ABAA32A9153789699B8992C9EA709C4A /* Pods-MagaluGistTests-dummy.m */; };
-		65577BF079616ACEA7D347101FE47438 /* Pods-MagaluGist-MagaluGistUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DD283CAE61B8E68F5723AE658BDE47C /* Pods-MagaluGist-MagaluGistUITests-dummy.m */; };
-		6EDAC3A65DD0E4A1EA940503064DFA8C /* Pods-MagaluGist-MagaluGistUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ECD0262DC0D0D6CE393A757157FF8B98 /* Pods-MagaluGist-MagaluGistUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		726A65753BB7232564399FF5E130066F /* Pods-MagaluGist-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6AC4C2DA94E0E3062F7FFDBAF71B49CA /* Pods-MagaluGist-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		777FCD6ED4B387C9BD4453FD867F3246 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		96DE2157270BA5370071371B /* PersonalApiProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F53940E222F86B15538A257135BFDD9 /* PersonalApiProvider.h */; };
-		98B3E41F01966E3D7EE52F02CA0742BF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		96FCF3A75A1C48A5A2371FC908EE2444 /* Pods-MagaluGist-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A6AD6B8BF3ECE3A9EB9A31D864773A85 /* Pods-MagaluGist-dummy.m */; };
+		CAB5673E7A64D388DC4305F1DCAEA27D /* Pods-MagaluGist-MagaluGistUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DD283CAE61B8E68F5723AE658BDE47C /* Pods-MagaluGist-MagaluGistUITests-dummy.m */; };
+		D624679CE82351BC1A5842CB3F941B0C /* Pods-MagaluGist-MagaluGistUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ECD0262DC0D0D6CE393A757157FF8B98 /* Pods-MagaluGist-MagaluGistUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DA34B3827D28A6B87797473B588B98FD /* Pods-MagaluGistTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FF359B6FE8A1204807FCDB3E0DB0132 /* Pods-MagaluGistTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DED15A1F5495852175DEFFCE7EC93339 /* Pods-MagaluGist-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A6AD6B8BF3ECE3A9EB9A31D864773A85 /* Pods-MagaluGist-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		88E88A14286DD8BE22871DA02F2986AB /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B0245144CE495F25578A4D5F1E437E1C;
-			remoteInfo = PersonalApiProvider;
-		};
-		AE2F0C655839A83A5291538A4BACBA47 /* PBXContainerItemProxy */ = {
+		BC95A284A62AF6A365585CF4CA6B8C1F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = D453C249EA25DE9B2E5BF980F832D6BA;
 			remoteInfo = "Pods-MagaluGist";
-		};
-		B6AA2C8A87B0EA6A20157BF2C8540165 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B0245144CE495F25578A4D5F1E437E1C;
-			remoteInfo = PersonalApiProvider;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -61,14 +33,11 @@
 		2A5F3FAF11985BCC1D6FFD58125D292F /* Pods-MagaluGistTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MagaluGistTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		2BCFFA38A048462FC13297732755C175 /* Pods-MagaluGist-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MagaluGist-Info.plist"; sourceTree = "<group>"; };
 		4754BBDF0CE4B8C0EB50FC0A35E796FB /* Pods-MagaluGist-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MagaluGist-acknowledgements.plist"; sourceTree = "<group>"; };
-		4829CD6161B6B3B6DBE11B5B46F42147 /* PersonalApiProvider.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PersonalApiProvider.release.xcconfig; sourceTree = "<group>"; };
 		4AAFE5FA708FBB6F85A4986738DEFD2E /* Pods-MagaluGistTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MagaluGistTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		59605DB5BF9C0977589E82DC95DD94A2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		5F06CD3DA9E37FEFFC3E988ACAD3BBD0 /* Pods-MagaluGistTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MagaluGistTests.modulemap"; sourceTree = "<group>"; };
 		6602D066B0DD0D9434151B9279F94C70 /* Pods-MagaluGist.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MagaluGist.modulemap"; sourceTree = "<group>"; };
 		6AC4C2DA94E0E3062F7FFDBAF71B49CA /* Pods-MagaluGist-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MagaluGist-umbrella.h"; sourceTree = "<group>"; };
 		6C6A015454EEFE137C0581E9E428298E /* Pods-MagaluGist.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MagaluGist.debug.xcconfig"; sourceTree = "<group>"; };
-		6F53940E222F86B15538A257135BFDD9 /* PersonalApiProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PersonalApiProvider.h; path = PersonalApiProvider/PersonalApiProvider.h; sourceTree = "<group>"; };
 		6FF359B6FE8A1204807FCDB3E0DB0132 /* Pods-MagaluGistTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MagaluGistTests-umbrella.h"; sourceTree = "<group>"; };
 		705F8E60DD8949CC83E49E91D98B13F8 /* Pods-MagaluGistTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MagaluGistTests.release.xcconfig"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
@@ -76,38 +45,35 @@
 		7C57C5BF6CF5006A1542DFB210BDBA62 /* Pods-MagaluGist */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-MagaluGist"; path = Pods_MagaluGist.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CCCF45D5939011D2172F50BF13DE05A /* Pods-MagaluGist-MagaluGistUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MagaluGist-MagaluGistUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		8DD283CAE61B8E68F5723AE658BDE47C /* Pods-MagaluGist-MagaluGistUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MagaluGist-MagaluGistUITests-dummy.m"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A5E78111F46FF2EF6B203FF646BB95F9 /* Pods-MagaluGist-MagaluGistUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-MagaluGist-MagaluGistUITests"; path = Pods_MagaluGist_MagaluGistUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6AD6B8BF3ECE3A9EB9A31D864773A85 /* Pods-MagaluGist-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MagaluGist-dummy.m"; sourceTree = "<group>"; };
 		ABAA32A9153789699B8992C9EA709C4A /* Pods-MagaluGistTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MagaluGistTests-dummy.m"; sourceTree = "<group>"; };
 		B252EF9FE9EBE102E7D0EE928A91567B /* Pods-MagaluGist-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MagaluGist-acknowledgements.markdown"; sourceTree = "<group>"; };
 		C8CA1C06950F50BCC4E9390528F4510C /* Pods-MagaluGist-MagaluGistUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MagaluGist-MagaluGistUITests-Info.plist"; sourceTree = "<group>"; };
 		D8562C5AC36C04AEC2419414A52A6784 /* Pods-MagaluGist.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MagaluGist.release.xcconfig"; sourceTree = "<group>"; };
-		DEE7DFDF69F913C2FEC1009EC635294C /* PersonalApiProvider.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PersonalApiProvider.debug.xcconfig; sourceTree = "<group>"; };
 		E7018B7595E3EB8D2E1A79884CCA95EB /* Pods-MagaluGist-MagaluGistUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MagaluGist-MagaluGistUITests-acknowledgements.plist"; sourceTree = "<group>"; };
-		E7B492C5BFEF92D97D1C194EBFF19700 /* PersonalApiProvider.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = PersonalApiProvider.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		EC8CCD445DDA4ECE5545C005379800E9 /* Pods-MagaluGist-MagaluGistUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MagaluGist-MagaluGistUITests.modulemap"; sourceTree = "<group>"; };
 		ECD0262DC0D0D6CE393A757157FF8B98 /* Pods-MagaluGist-MagaluGistUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MagaluGist-MagaluGistUITests-umbrella.h"; sourceTree = "<group>"; };
-		F4DE3A5C5054F76ECE02AB6342460B6D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		F5A3A6BDE4D703E8B453594ECC323528 /* Pods-MagaluGistTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-MagaluGistTests"; path = Pods_MagaluGistTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5F00277C83DB54A67D2ACC4B64B294E /* Pods-MagaluGistTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MagaluGistTests.debug.xcconfig"; sourceTree = "<group>"; };
 		FCD96303D2F0F5D6348FD2B6F4F38347 /* Pods-MagaluGistTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MagaluGistTests-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1021451CDAD910BB53FA34BB9405D6F7 /* Frameworks */ = {
+		1861691B5BD259EEEF30257127B6BBC6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2F525807AE22DA963E13464FEC2634F0 /* Foundation.framework in Frameworks */,
+				27DE1BB576E60B6142208686B84164A9 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		74F7C770F2A8B5F026A47C8D2F5B5290 /* Frameworks */ = {
+		2CE9A04D42C8C9335ED10CB1C32D5F79 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				98B3E41F01966E3D7EE52F02CA0742BF /* Foundation.framework in Frameworks */,
+				0F2E9621D799767DB30EAF8C10C5A9CB /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -122,17 +88,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		39C5EDF1ADAD35C09535CAF00D1D321D /* PersonalApiProvider */ = {
-			isa = PBXGroup;
-			children = (
-				6F53940E222F86B15538A257135BFDD9 /* PersonalApiProvider.h */,
-				CF5A5122524BEF347CD090F6118BAB37 /* Pod */,
-				EF69CDDFFC78627F61EF671C618C69CA /* Support Files */,
-			);
-			name = PersonalApiProvider;
-			path = /Users/peterdenardo/Projects/PersonalApiProvider;
-			sourceTree = "<absolute>";
-		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -197,21 +152,10 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				E31B15281CFB7DFC868843377C27F65C /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				A3EA986FFCAD13C0188066D4977FA0A2 /* Products */,
 				BE530EA0FB875879B9775A59C928AF2A /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		CF5A5122524BEF347CD090F6118BAB37 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				F4DE3A5C5054F76ECE02AB6342460B6D /* LICENSE */,
-				E7B492C5BFEF92D97D1C194EBFF19700 /* PersonalApiProvider.podspec */,
-				59605DB5BF9C0977589E82DC95DD94A2 /* README.md */,
-			);
-			name = Pod;
 			sourceTree = "<group>";
 		};
 		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
@@ -220,14 +164,6 @@
 				578452D2E740E91742655AC8F1636D1F /* iOS */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		E31B15281CFB7DFC868843377C27F65C /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				39C5EDF1ADAD35C09535CAF00D1D321D /* PersonalApiProvider */,
-			);
-			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		EEB3A3B13F24B4376A2E04B023F5CB72 /* Pods-MagaluGist */ = {
@@ -246,33 +182,22 @@
 			path = "Target Support Files/Pods-MagaluGist";
 			sourceTree = "<group>";
 		};
-		EF69CDDFFC78627F61EF671C618C69CA /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				DEE7DFDF69F913C2FEC1009EC635294C /* PersonalApiProvider.debug.xcconfig */,
-				4829CD6161B6B3B6DBE11B5B46F42147 /* PersonalApiProvider.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../MagaluGist/Pods/Target Support Files/PersonalApiProvider";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		4D3BDBE64C1F517B25AB738EB58FBDD6 /* Headers */ = {
+		410EAE318218705F9B503A149C6FBBF7 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6EDAC3A65DD0E4A1EA940503064DFA8C /* Pods-MagaluGist-MagaluGistUITests-umbrella.h in Headers */,
+				726A65753BB7232564399FF5E130066F /* Pods-MagaluGist-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		62C9C0F5F60235A6A2B1393E3C416630 /* Headers */ = {
+		9486D59EA6468A0EE5C0085B3B564477 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				96DE2157270BA5370071371B /* PersonalApiProvider.h in Headers */,
-				3A113F94EC7581DB174522285F2E34DE /* Pods-MagaluGist-umbrella.h in Headers */,
+				D624679CE82351BC1A5842CB3F941B0C /* Pods-MagaluGist-MagaluGistUITests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,7 +224,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				CB12EA7BD67123276618758D64A0624D /* PBXTargetDependency */,
+				F3B626FC561097935F5DD3DF8087F8C7 /* PBXTargetDependency */,
 			);
 			name = "Pods-MagaluGistTests";
 			productName = Pods_MagaluGistTests;
@@ -308,17 +233,16 @@
 		};
 		D0E00F27C74FC3E1FF87A00CAAA797CB /* Pods-MagaluGist-MagaluGistUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DA859E132712FFD00BA55D72C11CEF73 /* Build configuration list for PBXNativeTarget "Pods-MagaluGist-MagaluGistUITests" */;
+			buildConfigurationList = F786A04BE3857F4F3E0D72B25835CBAF /* Build configuration list for PBXNativeTarget "Pods-MagaluGist-MagaluGistUITests" */;
 			buildPhases = (
-				4D3BDBE64C1F517B25AB738EB58FBDD6 /* Headers */,
-				64D5745B9000F9AA2A86AB734268ED83 /* Sources */,
-				1021451CDAD910BB53FA34BB9405D6F7 /* Frameworks */,
-				2109AAB8C3D54E31F058694EEEE49A00 /* Resources */,
+				9486D59EA6468A0EE5C0085B3B564477 /* Headers */,
+				11AFE6186C3E51C32B1B5B4D91315839 /* Sources */,
+				1861691B5BD259EEEF30257127B6BBC6 /* Frameworks */,
+				1E010C8FB3806C538EBB2B5A26AD605B /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				2D22F86C75FA742BF562CD18686E1F05 /* PBXTargetDependency */,
 			);
 			name = "Pods-MagaluGist-MagaluGistUITests";
 			productName = Pods_MagaluGist_MagaluGistUITests;
@@ -327,17 +251,16 @@
 		};
 		D453C249EA25DE9B2E5BF980F832D6BA /* Pods-MagaluGist */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B5C836A6A14E74921FF6D849CB769D77 /* Build configuration list for PBXNativeTarget "Pods-MagaluGist" */;
+			buildConfigurationList = 14523757196178DC4C41302B9548E252 /* Build configuration list for PBXNativeTarget "Pods-MagaluGist" */;
 			buildPhases = (
-				62C9C0F5F60235A6A2B1393E3C416630 /* Headers */,
-				93DA05A2A45521431382ED86AC4D9CA4 /* Sources */,
-				74F7C770F2A8B5F026A47C8D2F5B5290 /* Frameworks */,
-				2C5BF23BEC063E927C77A20738C74326 /* Resources */,
+				410EAE318218705F9B503A149C6FBBF7 /* Headers */,
+				1A2495B128CEF2448A86492FFBCEE286 /* Sources */,
+				2CE9A04D42C8C9335ED10CB1C32D5F79 /* Frameworks */,
+				209A24266A44A6606A298D227BF584A9 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				67444C7235530F59B1C1ED6BBF1C6319 /* PBXTargetDependency */,
 			);
 			name = "Pods-MagaluGist";
 			productName = Pods_MagaluGist;
@@ -366,7 +289,6 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B0245144CE495F25578A4D5F1E437E1C /* PersonalApiProvider */,
 				D453C249EA25DE9B2E5BF980F832D6BA /* Pods-MagaluGist */,
 				D0E00F27C74FC3E1FF87A00CAAA797CB /* Pods-MagaluGist-MagaluGistUITests */,
 				645E8DB7A323A903FD36374467E51BDB /* Pods-MagaluGistTests */,
@@ -375,14 +297,14 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		2109AAB8C3D54E31F058694EEEE49A00 /* Resources */ = {
+		1E010C8FB3806C538EBB2B5A26AD605B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2C5BF23BEC063E927C77A20738C74326 /* Resources */ = {
+		209A24266A44A6606A298D227BF584A9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -399,19 +321,19 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		64D5745B9000F9AA2A86AB734268ED83 /* Sources */ = {
+		11AFE6186C3E51C32B1B5B4D91315839 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				65577BF079616ACEA7D347101FE47438 /* Pods-MagaluGist-MagaluGistUITests-dummy.m in Sources */,
+				CAB5673E7A64D388DC4305F1DCAEA27D /* Pods-MagaluGist-MagaluGistUITests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		93DA05A2A45521431382ED86AC4D9CA4 /* Sources */ = {
+		1A2495B128CEF2448A86492FFBCEE286 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DED15A1F5495852175DEFFCE7EC93339 /* Pods-MagaluGist-dummy.m in Sources */,
+				96FCF3A75A1C48A5A2371FC908EE2444 /* Pods-MagaluGist-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -426,23 +348,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		2D22F86C75FA742BF562CD18686E1F05 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = PersonalApiProvider;
-			target = B0245144CE495F25578A4D5F1E437E1C /* PersonalApiProvider */;
-			targetProxy = 88E88A14286DD8BE22871DA02F2986AB /* PBXContainerItemProxy */;
-		};
-		67444C7235530F59B1C1ED6BBF1C6319 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = PersonalApiProvider;
-			target = B0245144CE495F25578A4D5F1E437E1C /* PersonalApiProvider */;
-			targetProxy = B6AA2C8A87B0EA6A20157BF2C8540165 /* PBXContainerItemProxy */;
-		};
-		CB12EA7BD67123276618758D64A0624D /* PBXTargetDependency */ = {
+		F3B626FC561097935F5DD3DF8087F8C7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-MagaluGist";
 			target = D453C249EA25DE9B2E5BF980F832D6BA /* Pods-MagaluGist */;
-			targetProxy = AE2F0C655839A83A5291538A4BACBA47 /* PBXContainerItemProxy */;
+			targetProxy = BC95A284A62AF6A365585CF4CA6B8C1F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -485,7 +395,44 @@
 			};
 			name = Release;
 		};
-		302AA0BBB0FF5A2D71574DDC44B3F506 /* Debug */ = {
+		0AD3BE053D0C021F239A9DC65951ACF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 772A972F4B4718998E84AEB2F42D9424 /* Pods-MagaluGist-MagaluGistUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MagaluGist-MagaluGistUITests/Pods-MagaluGist-MagaluGistUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MagaluGist-MagaluGistUITests/Pods-MagaluGist-MagaluGistUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		402B52FFF167C13455DDC478E31811B5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6C6A015454EEFE137C0581E9E428298E /* Pods-MagaluGist.debug.xcconfig */;
 			buildSettings = {
@@ -559,6 +506,44 @@
 			};
 			name = Debug;
 		};
+		6D30F7AD1CBCAD5C6281683FDC280DD6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02697102E818FAACEFA7F968229300D5 /* Pods-MagaluGist-MagaluGistUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MagaluGist-MagaluGistUITests/Pods-MagaluGist-MagaluGistUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MagaluGist-MagaluGistUITests/Pods-MagaluGist-MagaluGistUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		90D4D09BCB6A4660E43ACBE9ECB6FE9A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -625,43 +610,6 @@
 			};
 			name = Debug;
 		};
-		91C2F92264DA957C1BB23F27FB68A90A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 772A972F4B4718998E84AEB2F42D9424 /* Pods-MagaluGist-MagaluGistUITests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-MagaluGist-MagaluGistUITests/Pods-MagaluGist-MagaluGistUITests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-MagaluGist-MagaluGistUITests/Pods-MagaluGist-MagaluGistUITests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		9553C89E183877A5CB2F3C6801BEC129 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -724,7 +672,7 @@
 			};
 			name = Release;
 		};
-		A449DB652297EB735271288E1C7B0EF4 /* Release */ = {
+		975263913A89A51C1DA79C9FA3FE0961 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D8562C5AC36C04AEC2419414A52A6784 /* Pods-MagaluGist.release.xcconfig */;
 			buildSettings = {
@@ -762,87 +710,14 @@
 			};
 			name = Release;
 		};
-		B67C8C67BD05E050A3365D2E754A9290 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DEE7DFDF69F913C2FEC1009EC635294C /* PersonalApiProvider.debug.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		E7BE184B7FF132FDAEEA2257F142ADD9 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 02697102E818FAACEFA7F968229300D5 /* Pods-MagaluGist-MagaluGistUITests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-MagaluGist-MagaluGistUITests/Pods-MagaluGist-MagaluGistUITests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-MagaluGist-MagaluGistUITests/Pods-MagaluGist-MagaluGistUITests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		E8C7227B9057AA79F7BE0A7601089F6D /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4829CD6161B6B3B6DBE11B5B46F42147 /* PersonalApiProvider.release.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		28C867D6C6D7A8DDFEC47F889BF7CCA8 /* Build configuration list for PBXAggregateTarget "PersonalApiProvider" */ = {
+		14523757196178DC4C41302B9548E252 /* Build configuration list for PBXNativeTarget "Pods-MagaluGist" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B67C8C67BD05E050A3365D2E754A9290 /* Debug */,
-				E8C7227B9057AA79F7BE0A7601089F6D /* Release */,
+				402B52FFF167C13455DDC478E31811B5 /* Debug */,
+				975263913A89A51C1DA79C9FA3FE0961 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -865,20 +740,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B5C836A6A14E74921FF6D849CB769D77 /* Build configuration list for PBXNativeTarget "Pods-MagaluGist" */ = {
+		F786A04BE3857F4F3E0D72B25835CBAF /* Build configuration list for PBXNativeTarget "Pods-MagaluGist-MagaluGistUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				302AA0BBB0FF5A2D71574DDC44B3F506 /* Debug */,
-				A449DB652297EB735271288E1C7B0EF4 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		DA859E132712FFD00BA55D72C11CEF73 /* Build configuration list for PBXNativeTarget "Pods-MagaluGist-MagaluGistUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				91C2F92264DA957C1BB23F27FB68A90A /* Debug */,
-				E7BE184B7FF132FDAEEA2257F142ADD9 /* Release */,
+				0AD3BE053D0C021F239A9DC65951ACF9 /* Debug */,
+				6D30F7AD1CBCAD5C6281683FDC280DD6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

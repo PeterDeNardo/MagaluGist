@@ -1,16 +1,3 @@
-PODS:
-  - PersonalApiProvider (0.0.1)
-
-DEPENDENCIES:
-  - PersonalApiProvider (from `/Users/peterdenardo/Projects/PersonalApiProvider`)
-
-EXTERNAL SOURCES:
-  PersonalApiProvider:
-    :path: "/Users/peterdenardo/Projects/PersonalApiProvider"
-
-SPEC CHECKSUMS:
-  PersonalApiProvider: 6bde1019e0e1fd110a72502dde3ba3d3117c10a8
-
-PODFILE CHECKSUM: 347106ca28b9410d86a00dabec3feb77af813e37
+PODFILE CHECKSUM: 6cdb7cf735d1d62532c9d61cc0cdfec6e38f7629
 
 COCOAPODS: 1.11.2

@@ -7,7 +7,7 @@ target 'MagaluGist' do
 
   # Pods for MagaluGist
 
-  # pod 'PersonalApiProvider', :path => '/Users/peterdenardo/Projects/PersonalApiProvider'
+  # pod 'PersonalApiProvider'
 
   target 'MagaluGistTests' do
     inherit! :search_paths

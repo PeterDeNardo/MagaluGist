@@ -1,2 +1,0 @@
-# PersonalApiProvider
-Api Provider Framework
