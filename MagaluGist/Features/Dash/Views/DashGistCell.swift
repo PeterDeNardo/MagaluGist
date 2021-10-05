@@ -102,9 +102,10 @@ class DashGistCell: UITableViewCell {
     }
     
     private func setupLayout() {
+        let margins = self.layoutMarginsGuide
         self.contentView.addSubview(userImageView)
         userImageView.anchor(top: self.contentView.topAnchor, paddingTop: 5)
-        userImageView.anchor(left: self.contentView.leftAnchor, paddingLeft: 26)
+        userImageView.anchor(left: margins.leftAnchor)
         userImageView.anchor(width: 60, height: 60)
         userImageView.layer.cornerRadius = 60/2
         userImageView.clipsToBounds = true
@@ -120,14 +121,14 @@ class DashGistCell: UITableViewCell {
         userProjectNameLabel.anchor(height: 24)
         
         self.contentView.addSubview(userProjectTypeLabel)
-        userProjectTypeLabel.anchor(left: self.contentView.leftAnchor, paddingLeft: 26)
+        userProjectTypeLabel.anchor(left: margins.leftAnchor)
         userProjectTypeLabel.anchor(top: userImageView.bottomAnchor, paddingTop: 10)
         userProjectTypeLabel.anchor(height: 22)
         
         self.contentView.addSubview(favButton)
         favButton.anchor(width: 25, height: 25)
         _ = UIBezierPath(heartIn: favButton.bounds)
-        favButton.anchor(right: self.contentView.rightAnchor, paddingRight: 15)
+        favButton.anchor(right: margins.rightAnchor)
         favButton.anchor(vertical: self.contentView.centerYAnchor)
         handleButtonClick(state: model?.favorited ?? false)
     }

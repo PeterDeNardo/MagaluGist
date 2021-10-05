@@ -71,19 +71,17 @@ class DetailView: UIView {
         imageView.anchor(left: self.leftAnchor, right: self.rightAnchor)
         imageView.anchor(top: margins.topAnchor)
         imageView.anchor(height: UIScreen.main.bounds.width)
-        let grandient = CAGradientLayer()
-        grandient.colors = [UIColor.black, UIColor.clear]
-        grandient.locations = [1.0, 0.0]
-        grandient.frame = imageView.bounds
-        imageView.layer.insertSublayer(grandient, at: 0)
+        imageView.layer.cornerRadius = 20
+        imageView.layer.maskedCorners = [.layerMaxXMaxYCorner, .layerMinXMaxYCorner]
+        imageView.clipsToBounds = true
         
-        imageView.addSubview(userNameLabel)
-        userNameLabel.anchor(left: imageView.leftAnchor, right: imageView.rightAnchor, paddingLeft: 24, paddingRight: 24)
-        userNameLabel.anchor(bottom: imageView.bottomAnchor, paddingBottom: 10)
+        self.addSubview(userNameLabel)
+        userNameLabel.anchor(left: margins.leftAnchor, right: margins.rightAnchor, paddingLeft: 5, paddingRight: 5)
+        userNameLabel.anchor(top: self.imageView.bottomAnchor, paddingTop: 10)
         
         self.addSubview(userProjectNameLabel)
-        userProjectNameLabel.anchor(left: self.leftAnchor, right: self.rightAnchor, paddingLeft: 24, paddingRight: 24)
-        userProjectNameLabel.anchor(top: imageView.bottomAnchor, paddingTop: 24)
+        userProjectNameLabel.anchor(left: margins.leftAnchor, right: margins.rightAnchor, paddingLeft: 5, paddingRight: 5)
+        userProjectNameLabel.anchor(top: userNameLabel.bottomAnchor, paddingTop: 24)
         userProjectNameLabel.sizeToFit()
     }
 }
